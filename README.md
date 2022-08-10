@@ -11,3 +11,10 @@ The model’s robustness was evaluated on simulated genetic variation data at th
 then compared to that of a baseline model with the freedom to copy from any reference haplotype at any locus.
 The results point to good model performance for target haplotypes as old as 900,000 years in the simplest-case scenario of constant-sized continuous populations. Although this
 suggests the model’s applicability to ancient DNA from anatomically modern humans, a more definitive answer should be reached by considering scenarios that reflect the complexity of the demographic history of humans. Nevertheless, this work provides a starting point for assessing the haplotype-copying framework when applied to ancient DNA data.
+
+## Content
+
+- **SIMULATIONS**: forward simulation of two constant-sized populations (starting 200k or 1.5 million years ago) in R using slendr package.  
+- **DATA**: resulting tree-sequence files from the simulations
+- **SCRIPTS**: implementation of forward and Viterbi algorithms, maximum likelihood estimation of model parameters, computing divergences from target to reference and from optimal path to reference. 
+ 
